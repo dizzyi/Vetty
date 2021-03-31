@@ -40,6 +40,7 @@ a{
   padding: 1rem;
   text-align: center;
   border-radius: 1.5rem;
+  margin-top:1rem
 }
 h1{
   font-size:60px;
