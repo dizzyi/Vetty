@@ -28,22 +28,25 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 2rem;
 }
 .joinus form{
     display: flex;
     align-items: center;
     gap:1rem;
+    font-size: 1.2rem;
 }
 .joinus button{
-    padding: 0.5rem;
+    padding: 1rem;
     background:#e85B0b;
     color: white;
     font-weight: 500; 
-    border-radius: 0.5rem;
+    border-radius: 1rem;
 }
 input{
     background: #d0d0d0;
-    padding: 0.5rem;
+    padding: 0.7rem;
     border-radius: 0.5rem;
+
 }
 </style>

@@ -40,7 +40,8 @@ a{
   padding: 1rem;
   text-align: center;
   border-radius: 1.5rem;
-  margin-top:1rem
+  margin-top:1rem;
+  font-weight:500;
 }
 h1{
   font-size:60px;

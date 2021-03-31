@@ -38,4 +38,8 @@ h3{
   font-size: 2rem;
   font-weight: 500;
 }
+.container{
+  width:50%;
+  margin:auto
+}
 </style>
