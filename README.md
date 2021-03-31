@@ -1,5 +1,8 @@
 # vetty
 
+## Project Link
+https://dizzyi.github.io/Vetty/
+
 ## Project setup
 ```
 yarn install
