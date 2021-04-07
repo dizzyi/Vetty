@@ -1,16 +1,18 @@
 <template>
   <section class="joinus">
-      <h2>
-          Join Us Now!
-      </h2>
-      <h3>
-          An integrated management and marketing solution for your vet clinic 
-      </h3>
-      <form action=''>
-          <label for="joinEmail">Email</label>
-          <input type="email" name="joinEmail" id="joinEmail" placeholder="Enter Your Email Here" required>
-          <button>Join Us now</button>
-      </form>
+    <div class="container">
+        <h2>
+            Join Us Now!
+        </h2>
+        <h3>
+            An integrated management and marketing solution for your vet clinic 
+        </h3>
+        <form action=''>
+            <label for="joinEmail">Email</label>
+            <input type="email" name="joinEmail" id="joinEmail" placeholder="Enter Your Email Here" required>
+            <button>Join Us now</button>
+        </form>
+    </div>
   </section>
 </template>
 
@@ -22,7 +24,7 @@ export default {
 
 <style scoped>
 .joinus{
-    height: 40vh;
+    padding: 2.5rem;
     background: #54f277;
     display: flex;
     flex-direction: column;
@@ -31,7 +33,7 @@ export default {
     gap: 2rem;
 }
 .joinus form{
-    display: flex;
+    display: grid;
     align-items: center;
     gap:1rem;
     font-size: 1.2rem;

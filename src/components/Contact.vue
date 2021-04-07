@@ -42,7 +42,7 @@ export default {
 
 <style scoped>
 section{
-    height: 90vh;
+    padding: 4rem;
     background-image: url("../assets/contact_001.jpg");
     background-repeat: no-repeat;
     background-size: cover;

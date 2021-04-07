@@ -1,12 +1,15 @@
 <template>
   <div>
       this is the booking page
+      <qbar/>
   </div>
 </template>
 
 <script>
-export default {
+import qbar from '../components/QBar.vue';
 
+export default {
+  components: { qbar }
 }
 </script>
 

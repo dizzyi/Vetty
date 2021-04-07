@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <div id="logo">Vetty</div>
+    <div id="logo">Vetty.</div>
     <ul >
         <li>
             <router-link to='/'>Home</router-link>
@@ -24,17 +24,20 @@ export default {
 <style scoped>
 
 nav{
-    background: #270d0d;
+    background: #1a1111;
     color: #d1d0f0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 10vw;
     filter: drop-shadow(1px 1px 3px black);
+    position: sticky;
+    top:0;
+    z-index: 1;
 }
 nav #logo{
     font-style: italic;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 nav ul{
     height: 100%;
