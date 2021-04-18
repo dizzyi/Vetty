@@ -24,13 +24,16 @@ export default {
 
 <style scoped>
 .joinus{
-    padding: 2.5rem;
+    padding: 5rem;
     background: #54f277;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 2rem;
+}
+h2,h3,label{
+    color:black;
 }
 .joinus form{
     display: grid;

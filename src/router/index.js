@@ -17,6 +17,11 @@ const routes = [
     name: 'vet',
     component: ()=> import('../views/Vet.vue')
   },
+  {
+    path: '/booking/result',
+    name: 'result',
+    component: ()=> import('../views/Result.vue')
+  },
 ]
 
 const router = createRouter({

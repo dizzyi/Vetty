@@ -1,10 +1,13 @@
 <template>
-  <section id="landing">
-    <div>
-      <h2>Find the</h2>
+  <section id="landing" >
+    <div class="tagline">
+      <h1>Find the</h1>
       <h1>purrr~fect vet</h1>
-      <h2>for your pet</h2>
+      <h1>for your pet</h1>
       <a href="#">Join Us</a>
+    </div>
+    <div>
+      <img src="../assets/landing.svg" alt="">
     </div>
   </section>
 </template>
@@ -17,16 +20,14 @@ export default {
 
 <style scoped>
 #landing{
-  height: 80vh;
-  background-image: url("../assets/home_001.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  transform: scaleX(-1);
+  height: 75vh;
+  background: #1d1d1f;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap:20vw;
 }
 #landing div{
-  transform: scaleX(-1);
-  margin-right: 20vw;
   height:100%;
   display: flex;
   flex-direction: column;
@@ -35,13 +36,15 @@ export default {
 a{
   text-decoration: none;
   color:white;
-  background: #e85b0b;
-  width: 8rem;
+  font-size: 1.5rem;
+  background: linear-gradient(30deg, #e85b0b, #CA1B06);
   padding: 1rem;
+  width: 15rem;
   text-align: center;
   border-radius: 1.5rem;
   margin-top:1rem;
   font-weight:500;
+  filter:drop-shadow(0px 0px 3px #e85b0b)
 }
 h1{
   font-size:60px;

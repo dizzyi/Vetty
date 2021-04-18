@@ -22,9 +22,14 @@ export default ({
   border:0;
   padding:0;
   box-sizing: border-box;
+  color: #E3E3E3;
 }
 body{
+  background: linear-gradient(-90deg, #4b4b79, #3c1b44);
   font-family: 'Poppins',sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 h1{
   font-size: 3rem;
@@ -38,8 +43,16 @@ h3{
   font-size: 2rem;
   font-weight: 500;
 }
+h4{
+  font-size: 1rem;
+  font-weight: 400;
+}
 .container{
-  width:50%;
+  width:85%;
   margin:auto
+}
+.foreground{
+  background: #1C2034;
+  filter: drop-shadow(1px 1px 3px black);
 }
 </style>
